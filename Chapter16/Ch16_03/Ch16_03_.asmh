@@ -1,0 +1,14 @@
+;-------------------------------------------------
+;               Ch16_03_.asmh
+;-------------------------------------------------
+
+; This structure must match the corresponding structure definition in Ch16_03.h
+
+LlNode      struct
+ValA        real8 4 dup(?)
+ValB        real8 4 dup(?)
+ValC        real8 4 dup(?)
+ValD        real8 4 dup(?)
+FreeSpace   byte 376 dup(?)
+Link        qword ?
+LlNode      ends

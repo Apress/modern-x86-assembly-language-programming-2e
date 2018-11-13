@@ -1,0 +1,5 @@
+The purpose of the source code in the chapter-specific include subfolder is
+to support the sample code that's described in the main text. The various
+classes, templates, methods, macros, etc. contain minimal requisite
+functionality. This code should not be used for other purposes without
+proper modifications.

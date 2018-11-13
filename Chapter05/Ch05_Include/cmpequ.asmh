@@ -1,0 +1,39 @@
+;-------------------------------------------------
+;               cmpequ.asmh
+;-------------------------------------------------
+
+; Basic compare predicates
+CMP_EQ          equ 00h
+CMP_LT          equ 01h
+CMP_LE          equ 02h
+CMP_UNORD       equ 03h
+CMP_NEQ         equ 04h
+CMP_NLT         equ 05h
+CMP_NLE         equ 06h
+CMP_ORD         equ 07h
+
+; Extended compare predicates for AVX
+CMP_EQU_UQ      equ 08h
+CMP_NGE         equ 09h
+CMP_NGT         equ 0Ah
+CMP_FALSE       equ 0Bh
+CMP_NEQ_OQ      equ 0Ch
+CMP_GE          equ 0Dh
+CMP_GT          equ 0Eh
+CMP_TRUE        equ 0Fh
+CMP_EQ_OS       equ 10h
+CMP_LT_OQ       equ 11h
+CMP_LE_OQ       equ 12h
+CMP_UNORD_S     equ 13h
+CMP_NEQ_US      equ 14h
+CMP_NLT_UQ      equ 15h
+CMP_NLE_UQ      equ 16h
+CMP_ORD_S       equ 17h
+CMP_EQ_US       equ 18h
+CMP_NGE_UQ      equ 19h
+CMP_NGT_UQ      equ 1Ah
+CMP_FALSE_OS    equ 1Bh
+CMP_NEQ_OS      equ 1Ch
+CMP_GE_OQ       equ 1Dh
+CMP_GT_OQ       equ 1Eh
+CMP_TRUE_US     equ 1Fh
